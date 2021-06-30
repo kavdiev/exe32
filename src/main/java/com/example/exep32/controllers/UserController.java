@@ -10,8 +10,6 @@ import javax.websocket.server.PathParam;
 import java.util.List;
 
 @RestController
-@Transactional
-@CrossOrigin
 public class UserController {
     @Autowired
     UserRepository  userRepository;
