@@ -12,7 +12,7 @@ public class Exep32Application {
     public static void main(String[] args) {
         SpringApplication.run(Exep32Application.class, args);
     }
-
+/*
     @Bean
     public WebMvcConfigurer webMvcConfigurer () {
         return new WebMvcConfigurer() {
@@ -21,6 +21,6 @@ public class Exep32Application {
                 registry.addMapping("/**").allowedOrigins("*");
             }
         };
-    }
+    }*/
 
 }
