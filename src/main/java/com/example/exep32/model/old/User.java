@@ -11,7 +11,6 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    // c'est un fake validator :(
     @Email
     private String email;
     private String grade;
